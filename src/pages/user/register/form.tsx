@@ -56,6 +56,9 @@ const styles = theme => ({
     icon: {
       fontSize: 40,
     },
+    '&:after': {
+      borderBottom: 'inherit !important'
+    }
   },
   button: {
     minWidth: 115,
